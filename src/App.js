@@ -4,7 +4,7 @@ import LoginForm from './components/LoginForm'
 import ChatFeed from './components/ChatFeed';
 
  
-   const projectID = "a509ff92-496d-4be9-9749-ab85ee862ab4"
+   const projectID = "Enter your id here from chatengine.io"
 function App() {
   if(!localStorage.getItem('username')) return <LoginForm/>
   return (

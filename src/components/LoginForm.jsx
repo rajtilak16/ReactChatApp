@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const projectID = 'a509ff92-496d-4be9-9749-ab85ee862ab4';
+const projectID = "Enter your id here from chatengine.io"
 
 const Modal = () => {
   const [username, setUsername] = useState('');
